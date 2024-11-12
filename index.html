@@ -4,8 +4,15 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>HTML/CSS</title>
+      <link rel="stylesheet" href="style.css" />
    </head>
    <body>
+      <!-- Internal CSS -->
+      <style>
+         h2 {
+            color: blueviolet;
+         }
+      </style>
       <!-- Headings -->
       <!-- <h1>Intro til HTML/CSS</h1>
       <h2>Heading 2</h2>
@@ -15,16 +22,17 @@
       <h6>Heading 6</h6> -->
       <header>
          <nav>
-            <h1>Intro til HTML/CSS</h1>
+            <!-- inline css -->
+            <h1 style="color: darkorange">Intro til HTML/CSS</h1>
             <a href="https://www.bt.no/">BT nyheter</a>
             <a href="#">About us</a>
          </nav>
       </header>
       <main>
          <section>
-            <h2>Velkommen til Kodehode</h2>
+            <h2 style="color: rgb(3, 185, 0)">Velkommen til Kodehode</h2>
             <div>
-               <p>
+               <p style="color: deeppink">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   <br />
                   Aliquid laudantium ullam fuga eligendi vel ad aspernatur
@@ -47,7 +55,24 @@
                alt="Lobster on a plate"
             />
          </article>
-         <div></div>
+         <article>
+            <img
+               src="/images/monika-borys-lobster.jpg"
+               alt="Lobster on a plate"
+            />
+         </article>
+         <article>
+            <img
+               src="/images/monika-borys-lobster.jpg"
+               alt="Lobster on a plate"
+            />
+         </article>
+         <article>
+            <img
+               src="/images/monika-borys-lobster.jpg"
+               alt="Lobster on a plate"
+            />
+         </article>
       </main>
       <footer></footer>
    </body>

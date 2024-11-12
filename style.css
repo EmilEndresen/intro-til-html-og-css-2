@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    min-height: 100svh;
+    background-color: rgb(1, 0, 11);
+    color: rgb(250, 245, 242);
+    border: solid 1px white;
+}
+
+p {
+    color: turquoise;
+}
+
+div {
+    max-width: 500px;
+    border: solid 5px rgb(27, 96, 0);
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, system-ui;
+}
+
+img {
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    color: white;
+}
